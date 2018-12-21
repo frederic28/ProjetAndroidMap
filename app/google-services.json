@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "753555745593",
+    "firebase_url": "https://projetandroidmap-fd3ed.firebaseio.com",
+    "project_id": "projetandroidmap-fd3ed",
+    "storage_bucket": "projetandroidmap-fd3ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753555745593:android:e55537472aec4fbf",
+        "android_client_info": {
+          "package_name": "kristof.ccm.ccm2018goooglemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753555745593-rgn1vcjikubrcvuk30cj8h1c04r3qspd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kristof.ccm.ccm2018goooglemap",
+            "certificate_hash": "b2607bcf41f55ccd958d86b8e0f1f92c1eb8d4aa"
+          }
+        },
+        {
+          "client_id": "753555745593-m7ft3rg2q963vkbat38ijqg90brro3re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxwfchSMlOc0PVbIRWFUeFDNPj6dsB0tY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753555745593-m7ft3rg2q963vkbat38ijqg90brro3re.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
