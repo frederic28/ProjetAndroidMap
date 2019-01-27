@@ -2,12 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kristof.ccm.ccm2018goooglemap">
 
-
-
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
-
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -16,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivitePrincipale">
+        <activity android:name=".addUser"></activity>
+        <activity android:name=".ActivitePrincipale" />
+        <activity android:name=".ConnectActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,11 +22,9 @@
             </intent-filter>
         </activity>
 
-
-        <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDAAahaYYgot3VtmMW0QiWdCs2Ili2Vb3c"/>
-
-
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDAAahaYYgot3VtmMW0QiWdCs2Ili2Vb3c" />
     </application>
 
 </manifest>

@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "753555745593-vjs7sjdv4d517bpe321fc861ct4cb7c9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kristof.ccm.ccm2018goooglemap",
+            "certificate_hash": "9f5803099bf9373dcb177c3fee4deb4c78558bd2"
+          }
+        },
+        {
           "client_id": "753555745593-m7ft3rg2q963vkbat38ijqg90brro3re.apps.googleusercontent.com",
           "client_type": 3
         }

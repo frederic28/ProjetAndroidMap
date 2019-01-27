@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">CCM2018GOoogleMap</string>
+    <string name="button">Button</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="creer_compte">créer compte</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="numero_de_telephone">numero de téléphone</string>
+    <string name="valider">valider</string>
+    <string name="name" />
+    <string name="Name">Name</string>
+    <string name="cr_er_un_utilisateur">Créer un utilisateur</string>
+    <string name="projet_ccm2">Projet CCM2</string>
+    <string name="phone_number">Phone Number</string>
 </resources>
