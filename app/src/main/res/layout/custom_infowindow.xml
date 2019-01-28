@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="test"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/toplayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="test"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingEnd="20dip"
+        android:paddingStart="10dip"
+        android:paddingTop="5dip">
+
+        <ImageView
+            android:id="@+id/clientPic"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dip"
+            android:contentDescription="TODO"
+            android:src="@drawable/common_google_signin_btn_icon_dark" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="2dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toplayout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="120dip"
+            android:layout_height="40dip"
+            android:text="Téléphone" />
+
+        <Button
+            android:id="@+id/btnOne2"
+            android:layout_width="120dip"
+            android:layout_height="40dip"
+            android:onClick="test"
+            android:text="SMS" />
+
+    </LinearLayout>
+</RelativeLayout>
