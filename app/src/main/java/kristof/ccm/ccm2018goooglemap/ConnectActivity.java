@@ -51,7 +51,11 @@ public class ConnectActivity extends AppCompatActivity {
                     String number = doc.get("phoneNumber").toString();
                     if (number != null && name != null && name.equals(nameSaisie.getText().toString()) && number.equals(phone.getText().toString())) {
                         Intent monIntent = new Intent(ConnectActivity.this, ActivitePrincipale.class);
-                        monIntent.putExtra("idUser", doc.getId());
+                        Bundle b = new Bundle();
+                        b.putString("name", nameSaisie.getText().toString());
+                        b.putString("phoneNumber", phone.getText().toString());
+                        b.putString("userId", doc.getId());
+                        monIntent.putExtras(b);
                         startActivity(monIntent);
                     } else {
 

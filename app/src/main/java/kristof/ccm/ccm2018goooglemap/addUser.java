@@ -57,7 +57,11 @@ public class addUser extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         Intent monIntent = new Intent(addUser.this, ActivitePrincipale.class);
-                        monIntent.putExtra("idUser", userCollection.getId());
+                        Bundle b = new Bundle();
+                        b.putString("name", nameSaisie.getText().toString());
+                        b.putString("phoneNumber", phoneSaisie.getText().toString());
+                        b.putString("userId", userCollection.getId());
+                        monIntent.putExtras(b);
                         startActivity(monIntent);
                     }
                 })
